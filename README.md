@@ -1,4 +1,4 @@
-# lincode
+# firefly
 
 ## Project setup
 ```
