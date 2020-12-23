@@ -9,10 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-<<<<<<< HEAD
     "jquery": "^3.5.1",
-=======
->>>>>>> 9431a47c58c007b3f195c7391da4ed1bf1125ecb
     "js-cookie": "^2.2.1",
     "portal-vue": "^2.1.7",
     "semantic-ui-css": "^2.4.1",

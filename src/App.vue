@@ -40,10 +40,6 @@ export default {
     }
   },
   created () {
-<<<<<<< HEAD
-=======
-
->>>>>>> 9431a47c58c007b3f195c7391da4ed1bf1125ecb
   },
   watch: {},
 
@@ -60,20 +56,6 @@ export default {
 </script>
 
 <style>
-<<<<<<< HEAD
-=======
-body{
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  /* overflow-y: hidden; */
-  overflow-x: hidden;
-  padding: 0;
-  margin: 0;
-
-}
->>>>>>> 9431a47c58c007b3f195c7391da4ed1bf1125ecb
 .fade-enter-active, .fade-leave-active {
   transition: opacity .3s;
 }
@@ -87,9 +69,5 @@ body{
   position:fixed;
   top:0;
   width:100%;
-<<<<<<< HEAD
-=======
-  /* z-index: 9999; */
->>>>>>> 9431a47c58c007b3f195c7391da4ed1bf1125ecb
 }
 </style>

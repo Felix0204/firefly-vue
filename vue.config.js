@@ -1,9 +1,6 @@
 'use strict'
 const path = require('path')
-<<<<<<< HEAD
 const webpack = require('webpack')
-=======
->>>>>>> 9431a47c58c007b3f195c7391da4ed1bf1125ecb
 function resolve (dir) {
   return path.join(__dirname, dir)
 }
@@ -12,11 +9,7 @@ function resolve (dir) {
 module.exports = {
   publicPath: '/',
   outputDir: 'dist',
-<<<<<<< HEAD
   productionSourceMap: true,
-=======
-  productionSourceMap: false,
->>>>>>> 9431a47c58c007b3f195c7391da4ed1bf1125ecb
   devServer: {
     port: 3030,
     open: true,
@@ -46,7 +39,6 @@ module.exports = {
         include: 'initial'
       }
     ])
-<<<<<<< HEAD
     config.plugin('html').tap(args => {
       args[0].title = 'firefly'
       return args
@@ -57,9 +49,6 @@ module.exports = {
       jQuery: 'jquery',
       'window.jQuery': 'jquery'
     }])
-=======
-
->>>>>>> 9431a47c58c007b3f195c7391da4ed1bf1125ecb
     // when there are many pages, it will cause too many meaningless requests
     config.plugins.delete('prefetch')
   }
