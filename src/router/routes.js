@@ -64,7 +64,11 @@ const frameIn = [
         props: true,
         component: () => import('@/views/archives/index.vue')
       },
+<<<<<<< HEAD
       // 关于我
+=======
+      // 归档页
+>>>>>>> 9431a47c58c007b3f195c7391da4ed1bf1125ecb
       {
         path: 'about',
         name: 'about',
@@ -74,6 +78,7 @@ const frameIn = [
         },
         props: true,
         component: () => import('@/views/about/index.vue')
+<<<<<<< HEAD
       },
       // 博客管理
       {
@@ -104,6 +109,8 @@ const frameIn = [
           auth: true
         },
         component: () => import('@/views/admin/tags/index.vue')
+=======
+>>>>>>> 9431a47c58c007b3f195c7391da4ed1bf1125ecb
       }
     ]
   }
